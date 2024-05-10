@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.text.TextFlow?>
+
+<VBox xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.look.AproposController ">
+    <HBox prefHeight="279.0" prefWidth="774.0" spacing="10">
+      <AnchorPane prefHeight="200.0" prefWidth="200.0">
+         <children>
+              <ImageView fitHeight="200" fitWidth="283.0" layoutX="12.0" layoutY="42.0" preserveRatio="true">
+                  <image>
+                      <Image url="@../resources/M.png" />
+                  </image>
+              </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane prefHeight="279.0" prefWidth="516.0">
+         <children>
+            <TextFlow layoutY="35.0" lineSpacing="20.0" prefHeight="244.0" prefWidth="534.0" textAlignment="JUSTIFY">
+               <children>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Se présente comme une révolution dans le monde du commerce en ligne. En offrant aux utilisateurs la possibilité de créer leur propre avatar, il propose une expérience d'essayage virtuel unique. Notre plateforme simplifie ce processus en permettant aux utilisateurs de personnaliser leur représentation virtuelle avec une élégante simplicité. Au-delà de cela, nous allons plus loin en proposant des recommandations personnalisées, adaptées aux besoins et aux préférences individuelles. Bienvenue dans l'univers de Matchy Look, où le shopping en ligne prend une nouvelle dimension, alliant personnalisation et praticité de manière innovante." textAlignment="RIGHT" wrappingWidth="496.59765625">
+                     <font>
+                        <Font name="Rockwell" size="12.0" />
+                     </font>
+                  </Text>
+               </children>
+            </TextFlow>
+              <Label layoutY="2.0" prefHeight="24.0" prefWidth="193.0" text="A propos">
+               <font>
+                  <Font name="Verdana Bold" size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+    </HBox>
+</VBox>
